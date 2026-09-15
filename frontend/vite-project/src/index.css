@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-trivia-dark: #123f36;
+  --color-trivia-green: #2a6b5c;
+  --color-trivia-gold: #c49a45;
+  --color-trivia-beige: #e8dcc4;
+}
